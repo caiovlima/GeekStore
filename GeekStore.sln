@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{5E2C3B21
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{6F19EC85-F9C4-4110-B7CB-46BC41EB6A5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekStore.Domain", "src\GeekStore.Domain\GeekStore.Domain.csproj", "{06168220-472C-4DB9-A4E2-6A10F932CFED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekStore.Domain", "src\GeekStore.Domain\GeekStore.Domain.csproj", "{06168220-472C-4DB9-A4E2-6A10F932CFED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekStore.Application", "src\GeekStore.Application\GeekStore.Application.csproj", "{132DF009-F0A2-4E2F-8630-4BBE68D42347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{06168220-472C-4DB9-A4E2-6A10F932CFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06168220-472C-4DB9-A4E2-6A10F932CFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06168220-472C-4DB9-A4E2-6A10F932CFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132DF009-F0A2-4E2F-8630-4BBE68D42347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132DF009-F0A2-4E2F-8630-4BBE68D42347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132DF009-F0A2-4E2F-8630-4BBE68D42347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132DF009-F0A2-4E2F-8630-4BBE68D42347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{5E2C3B21-AC4C-4E37-94A4-6AD07F166F57} = {8BB8A6F7-01F1-4CD3-8F0C-555D014567FF}
 		{6F19EC85-F9C4-4110-B7CB-46BC41EB6A5E} = {8BB8A6F7-01F1-4CD3-8F0C-555D014567FF}
 		{06168220-472C-4DB9-A4E2-6A10F932CFED} = {E8B18BEA-8337-47BE-B161-FAABFE589BF0}
+		{132DF009-F0A2-4E2F-8630-4BBE68D42347} = {D6351CE3-8BFC-4FA6-A64B-1C86FE40AE2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34792CEF-70CF-4A0F-993C-AF8C9515A365}
