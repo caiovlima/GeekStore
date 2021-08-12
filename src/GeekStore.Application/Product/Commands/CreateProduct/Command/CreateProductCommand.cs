@@ -8,5 +8,6 @@ namespace GeekStore.Application.Product.Commands.CreateProduct.Command
 {
     public class CreateProductCommand
     {
+
     }
 }
