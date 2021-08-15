@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace GeekStore.Application.ViewModels.Product
+namespace GeekStore.Application.ViewModels.Supplier
 {
     public class SupplierViewModel
     {

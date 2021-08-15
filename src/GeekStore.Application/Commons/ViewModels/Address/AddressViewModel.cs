@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace GeekStore.Application.ViewModels.Product
+namespace GeekStore.Application.ViewModels.Address
 {
     public class AddressViewModel
     {

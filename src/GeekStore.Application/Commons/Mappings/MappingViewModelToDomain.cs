@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
-using GeekStore.Application.ViewModels.Product;
 using GeekStore.Domain.Entities;
+using GeekStore.Application.ViewModels.Address;
+using GeekStore.Application.ViewModels.Product;
+using GeekStore.Application.ViewModels.Supplier;
 
 namespace GeekStore.Application.Commons.Mappings
 {
@@ -13,20 +15,9 @@ namespace GeekStore.Application.Commons.Mappings
 
         private void ApplyMappings()
         {
-            var productMappingConfig = new MapperConfiguration(cfg => {
-                cfg.CreateMap<Domain.Entities.Product, ProductViewModel>()
-                   .ReverseMap();
-            });
-
-            var supplierMappingConfig = new MapperConfiguration(cfg => {
-                cfg.CreateMap<Supplier, SupplierViewModel>()
-                   .ReverseMap();
-            });
-
-            var addressMappingConfig = new MapperConfiguration(cfg => {
-                cfg.CreateMap<Supplier, SupplierViewModel>()
-                   .ReverseMap();
-            });
+            CreateMap<Supplier, SupplierViewModel>().ReverseMap();
+            CreateMap<Domain.Entities.Product, ProductViewModel>().ReverseMap();
+            CreateMap<Address, AddressViewModel>().ReverseMap();
         }
     }
 }
