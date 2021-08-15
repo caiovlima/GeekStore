@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
+using GeekStore.Application.ViewModels.Product;
 
 namespace GeekStore.Application.Product.Commands.CreateProduct.Command
 {
-    public class CreateProductCommand
+    public class CreateProductCommand : IRequest<ProductViewModel>
     {
-
+        public ProductViewModel Product { get; set; }
     }
 }
