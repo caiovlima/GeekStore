@@ -1,9 +1,11 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Http;
 
-namespace GeekStore.Application.ViewModels.Product
+
+namespace GeekStore.Application.Commons.ViewModels.Product
 {
-    public class ProductViewModel
+    public class ProductImageViewModel
     {
         [Key]
         public Guid Id { get; set; }
@@ -18,14 +20,17 @@ namespace GeekStore.Application.ViewModels.Product
         [Required(ErrorMessage = "The field {0} is required")]
         [StringLength(1000, ErrorMessage = "The field {0} need's between {2} and {1} characters", MinimumLength = 2)]
         public string Description { get; set; }
-        public string ImageUpload { get; set; }
+
+        public IFormFile ImageUpload { get; set; }
+
         public string Image { get; set; }
 
         [Required(ErrorMessage = "The field {0} is required")]
-        public decimal Value { get; set; }
+        public decimal Valor { get; set; }
 
         [ScaffoldColumn(false)]
         public DateTime DateCreated { get; set; }
+
         public bool Available { get; set; }
 
         [ScaffoldColumn(false)]

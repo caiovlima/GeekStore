@@ -5,7 +5,8 @@ namespace GeekStore.Domain.Entities
 {
     public class Product : Entity
     {
-        public Product(Guid supplierID, string name, string description, string image, decimal value, bool available, Supplier supplier)
+
+        public Product(Guid supplierID, string name, string description, string image, decimal value, bool available, DateTime dateCreated, Supplier supplier)
         {
             SupplierID = supplierID;
             Name = name;
@@ -13,6 +14,7 @@ namespace GeekStore.Domain.Entities
             Image = image;
             Value = value;
             Available = available;
+            DateCreated = dateCreated;
             Supplier = supplier;
         }
 
@@ -22,6 +24,8 @@ namespace GeekStore.Domain.Entities
         public string Image { get; private set; }
         public decimal Value { get; private set; }
         public bool Available { get; private set; }
+        public DateTime DateCreated { get; set; }
+
         public Supplier Supplier { get; private set; }
     }
 }
