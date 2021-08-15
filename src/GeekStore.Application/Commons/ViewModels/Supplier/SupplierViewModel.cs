@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using GeekStore.Application.ViewModels.Address;
+using GeekStore.Application.ViewModels.Product;
 
 namespace GeekStore.Application.ViewModels.Supplier
 {

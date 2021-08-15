@@ -2,7 +2,6 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Http;
 
-
 namespace GeekStore.Application.Commons.ViewModels.Product
 {
     public class ProductImageViewModel
