@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using MediatR;
+using GeekStore.Application.Product.Commands.CreateProduct.Validations;
 
 namespace GeekStore.Application.Setup
 {
@@ -11,9 +12,7 @@ namespace GeekStore.Application.Setup
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddMediatR(Assembly.GetExecutingAssembly());
-
-            //validations
-            //services.AddValidatorsFromAssemblyContaining<validator>();
+            services.AddValidatorsFromAssemblyContaining<CreateProductCommandValidator>();
 
             return services;
         }
