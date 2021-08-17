@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekStore.Domain", "src\Gee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekStore.Application", "src\GeekStore.Application\GeekStore.Application.csproj", "{132DF009-F0A2-4E2F-8630-4BBE68D42347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekStore.Infra", "src\GeekStore.Infra\GeekStore.Infra.csproj", "{793B886B-5B34-45A4-B565-01A9ECA06F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekStore.Infra", "src\GeekStore.Infra\GeekStore.Infra.csproj", "{793B886B-5B34-45A4-B565-01A9ECA06F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekStore.WebApi", "GeekStore.WebApi\GeekStore.WebApi.csproj", "{76A80FD1-20BF-4335-9DCB-163DF82A6623}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{793B886B-5B34-45A4-B565-01A9ECA06F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{793B886B-5B34-45A4-B565-01A9ECA06F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{793B886B-5B34-45A4-B565-01A9ECA06F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A80FD1-20BF-4335-9DCB-163DF82A6623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A80FD1-20BF-4335-9DCB-163DF82A6623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A80FD1-20BF-4335-9DCB-163DF82A6623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A80FD1-20BF-4335-9DCB-163DF82A6623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{06168220-472C-4DB9-A4E2-6A10F932CFED} = {E8B18BEA-8337-47BE-B161-FAABFE589BF0}
 		{132DF009-F0A2-4E2F-8630-4BBE68D42347} = {D6351CE3-8BFC-4FA6-A64B-1C86FE40AE2E}
 		{793B886B-5B34-45A4-B565-01A9ECA06F25} = {5E2C3B21-AC4C-4E37-94A4-6AD07F166F57}
+		{76A80FD1-20BF-4335-9DCB-163DF82A6623} = {6F19EC85-F9C4-4110-B7CB-46BC41EB6A5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {34792CEF-70CF-4A0F-993C-AF8C9515A365}
