@@ -5,6 +5,10 @@ namespace GeekStore.Application.Product.Commands.CreateProduct.Command
 {
     public class CreateProductCommand : IRequest<ProductViewModel>
     {
+        public CreateProductCommand(ProductViewModel product)
+        {
+            Product = product;
+        }
         public ProductViewModel Product { get; set; }
     }
 }
